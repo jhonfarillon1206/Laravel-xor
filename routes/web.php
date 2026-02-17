@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\XorController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 
